@@ -1,8 +1,10 @@
 package com.ccanozerr.fr.domain;
 
+import com.ccanozerr.fr.domain.metadata.annotations.Aggregate;
 import com.ccanozerr.fr.domain.metadata.annotations.Entity;
 
 @Entity(identity = "licence")
+@Aggregate
 public class Footballer {
 
 	private Licence licence;
@@ -11,6 +13,8 @@ public class Footballer {
 	private Nation nation;
 	private Team team;
 	private Contract contract;
+	private Pitch pitch;
+	private Personality personality;
 
 	private Footballer() {
 	}
@@ -61,6 +65,22 @@ public class Footballer {
 
 	public void setContract(Contract contract) {
 		this.contract = contract;
+	}
+
+	public Pitch getPitch() {
+		return pitch;
+	}
+
+	public void setPitch(Pitch pitch) {
+		this.pitch = pitch;
+	}
+
+	public Personality getPersonality() {
+		return personality;
+	}
+
+	public void setPersonality(Personality personality) {
+		this.personality = personality;
 	}
 
 }

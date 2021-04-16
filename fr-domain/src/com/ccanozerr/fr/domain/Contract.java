@@ -3,8 +3,10 @@ package com.ccanozerr.fr.domain;
 import java.time.Year;
 import java.util.Objects;
 
+import com.ccanozerr.fr.domain.metadata.annotations.ValueObject;
 import com.ccanozerr.fr.domain.metadata.enumtypes.Currency;
 
+@ValueObject
 public class Contract {
 
 	private final Year contractStart;

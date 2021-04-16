@@ -1,5 +1,8 @@
 package com.ccanozerr.fr.domain.metadata.enumtypes;
 
+import com.ccanozerr.fr.domain.metadata.annotations.ValueObject;
+
+@ValueObject
 public enum League {
 	ENGLISH_PREMIER_LEAGUE,
 	SPANISH_LA_LIGA,

@@ -2,8 +2,10 @@ package com.ccanozerr.fr.domain;
 
 import java.util.Objects;
 
+import com.ccanozerr.fr.domain.metadata.annotations.ValueObject;
 import com.ccanozerr.fr.domain.metadata.enumtypes.Country;
 
+@ValueObject
 public class Nation {
 
 	private final Country firstNation;

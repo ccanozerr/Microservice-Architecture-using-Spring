@@ -2,6 +2,9 @@ package com.ccanozerr.fr.domain;
 
 import java.util.Objects;
 
+import com.ccanozerr.fr.domain.metadata.annotations.ValueObject;
+
+@ValueObject
 public class FullName {
 
 	private final String firstName;

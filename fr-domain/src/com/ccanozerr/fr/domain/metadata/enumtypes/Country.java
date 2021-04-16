@@ -1,5 +1,8 @@
 package com.ccanozerr.fr.domain.metadata.enumtypes;
 
+import com.ccanozerr.fr.domain.metadata.annotations.ValueObject;
+
+@ValueObject
 public enum Country {
 	ANDORRA,
 	UNITED_ARAB_EMIRATES,

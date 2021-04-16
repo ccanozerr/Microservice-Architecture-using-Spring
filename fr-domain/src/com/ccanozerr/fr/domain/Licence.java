@@ -4,6 +4,9 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.WeakHashMap;
 
+import com.ccanozerr.fr.domain.metadata.annotations.ValueObject;
+
+@ValueObject
 public class Licence {
 
 	private final String playerLicence;

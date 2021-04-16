@@ -2,8 +2,10 @@ package com.ccanozerr.fr.domain;
 
 import java.util.Objects;
 
+import com.ccanozerr.fr.domain.metadata.annotations.ValueObject;
 import com.ccanozerr.fr.domain.metadata.enumtypes.Character;
 
+@ValueObject
 public class Personality {
 
 	private final String favouritePersonal;

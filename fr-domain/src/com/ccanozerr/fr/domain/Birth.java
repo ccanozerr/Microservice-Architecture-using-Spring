@@ -3,8 +3,10 @@ package com.ccanozerr.fr.domain;
 import java.time.LocalDate;
 import java.util.Objects;
 
+import com.ccanozerr.fr.domain.metadata.annotations.ValueObject;
 import com.ccanozerr.fr.domain.metadata.enumtypes.Country;
 
+@ValueObject
 public class Birth {
 
 	private final LocalDate birthDay;
