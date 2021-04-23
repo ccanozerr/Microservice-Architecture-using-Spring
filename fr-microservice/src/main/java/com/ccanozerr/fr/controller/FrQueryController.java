@@ -1,4 +1,4 @@
-package com.ccanozerr.hr.controller;
+package com.ccanozerr.fr.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
