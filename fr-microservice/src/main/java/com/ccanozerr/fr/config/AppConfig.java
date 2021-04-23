@@ -15,4 +15,5 @@ public class AppConfig {
 	public FrApplication frApp(FootballerRepository footballerRepository, EventPublisher eventPublisher) {
 		return new StandardFrApplication(footballerRepository, eventPublisher);
 	}
+
 }

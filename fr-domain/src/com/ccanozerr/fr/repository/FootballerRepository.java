@@ -11,6 +11,6 @@ public interface FootballerRepository {
 	
 	Optional<Footballer> findByLicence(Licence licence);
 	
-	Footballer delete(Footballer footballer);
+	void delete(Footballer footballer);
 
 }

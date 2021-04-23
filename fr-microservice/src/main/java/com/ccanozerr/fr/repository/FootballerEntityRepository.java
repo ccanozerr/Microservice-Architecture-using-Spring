@@ -8,10 +8,10 @@ import com.ccanozerr.fr.entity.FootballerEntity;
 
 public interface FootballerEntityRepository extends JpaRepository<FootballerEntity, String>{
 	
-	List<FootballerEntity> findAllByLeague();
-	
-	List<FootballerEntity> findAllByTeam();
-	
-	FootballerEntity findByLicence();
+//	List<FootballerEntity> findAllByLeague();
+//	
+//	List<FootballerEntity> findAllByTeamName();
+//	
+//	FootballerEntity findOneByLicence();
 
 }

@@ -38,14 +38,19 @@ public class FootballerRepositoryJpaAdapter implements FootballerRepository {
 
 	@Override
 	public Optional<Footballer> findByLicence(Licence licence) {
-		// TODO Auto-generated method stub
-		return null;
+		var entity = footballerEntityRepository.findById(licence.getPlayerLicence());
+		if (entity.isEmpty())
+				return Optional.empty();
+		return Optional.of(modelMapper.map(entity.get(), Footballer.class));
 	}
 
 	@Override
-	public Footballer delete(Footballer footballer) {
-		// TODO Auto-generated method stub
-		return null;
+	@Transactional
+	public void delete(Footballer footballer) {
+		var licence = footballer.getLicence().getPlayerLicence();
+		var entity = footballerEntityRepository.findById(licence);
+		if (entity.isPresent())
+			footballerEntityRepository.delete(entity.get());
 	}
 
 }

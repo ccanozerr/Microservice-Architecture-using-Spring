@@ -10,7 +10,6 @@ import com.ccanozerr.fr.dto.FootballerResponse;
 
 import org.modelmapper.ModelMapper;
 
-
 @Service
 public class FrQueryService {
 
