@@ -1,4 +1,4 @@
-package com.ccanozerr.fr.ÝNFRASTRUCTURE;
+package com.ccanozerr.fr.domain.metadata.annotations;
 
 import com.ccanozerr.fr.event.FootballerEvent;
 

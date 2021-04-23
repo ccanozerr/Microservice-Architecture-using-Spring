@@ -13,10 +13,13 @@ import com.ccanozerr.fr.dto.CreateFootballerRequest;
 import com.ccanozerr.fr.dto.CreateFootballerResponse;
 import com.ccanozerr.hr.service.FrCommandService;
 
+import io.swagger.annotations.Api;
+
 @RestController // Meta annotation
-@RequestMapping("employees")
+@RequestMapping("footballers")
 @RequestScope
 @CrossOrigin
+@Api("FR Rest Api")
 public class FrCommandController {
 	
 	@Autowired

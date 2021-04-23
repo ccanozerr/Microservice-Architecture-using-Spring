@@ -5,15 +5,20 @@ import java.util.Optional;
 import com.ccanozerr.fr.application.FrApplication;
 import com.ccanozerr.fr.domain.Footballer;
 import com.ccanozerr.fr.domain.Licence;
+import com.ccanozerr.fr.domain.metadata.annotations.EventPublisher;
 import com.ccanozerr.fr.event.FootballerCreateEvent;
 import com.ccanozerr.fr.event.FootballerDeleteEvent;
 import com.ccanozerr.fr.repository.FootballerRepository;
-import com.ccanozerr.fr.ÝNFRASTRUCTURE.EventPublisher;
 
 public class StandardFrApplication implements FrApplication{
 	
 	private FootballerRepository footballerRepository;
 	private EventPublisher eventPublisher;
+
+	public StandardFrApplication(FootballerRepository footballerRepository, EventPublisher eventPublisher) {
+		this.footballerRepository = footballerRepository;
+		this.eventPublisher = eventPublisher;
+	}
 
 	@Override
 	public Footballer createFootballer(Footballer footballer) {

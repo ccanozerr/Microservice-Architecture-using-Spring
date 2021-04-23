@@ -12,10 +12,13 @@ import com.ccanozerr.fr.dto.FootballerResponse;
 import com.ccanozerr.hr.service.FrQueryService;
 import com.ccanozerr.hr.validation.annotation.Licence;
 
+import io.swagger.annotations.Api;
+
 @RestController 
 @RequestMapping("footballers")
 @RequestScope
 @CrossOrigin
+@Api("FR Rest Api")
 public class FrQueryController {
 	
 	@Autowired
