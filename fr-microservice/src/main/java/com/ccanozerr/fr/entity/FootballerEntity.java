@@ -17,7 +17,7 @@ import com.ccanozerr.fr.domain.metadata.enumtypes.Currency;
 import com.ccanozerr.fr.domain.metadata.enumtypes.League;
 import com.ccanozerr.fr.domain.metadata.enumtypes.Position;
 import com.ccanozerr.fr.domain.metadata.enumtypes.Role;
-import com.ccanozerr.hr.validation.annotation.Licence;
+import com.ccanozerr.fr.validation.annotation.Licence;
 
 @Entity
 @Table(name = "footballers")

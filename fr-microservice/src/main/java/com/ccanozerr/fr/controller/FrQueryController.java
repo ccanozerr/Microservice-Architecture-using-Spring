@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.annotation.RequestScope;
 
 import com.ccanozerr.fr.dto.FootballerResponse;
-import com.ccanozerr.hr.service.FrQueryService;
-import com.ccanozerr.hr.validation.annotation.Licence;
+import com.ccanozerr.fr.service.FrQueryService;
+import com.ccanozerr.fr.validation.annotation.Licence;
 
 import io.swagger.annotations.Api;
 

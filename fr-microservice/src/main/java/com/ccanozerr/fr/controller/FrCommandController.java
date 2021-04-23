@@ -11,7 +11,7 @@ import org.springframework.web.context.annotation.RequestScope;
 
 import com.ccanozerr.fr.dto.CreateFootballerRequest;
 import com.ccanozerr.fr.dto.CreateFootballerResponse;
-import com.ccanozerr.hr.service.FrCommandService;
+import com.ccanozerr.fr.service.FrCommandService;
 
 import io.swagger.annotations.Api;
 

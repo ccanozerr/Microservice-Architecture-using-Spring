@@ -1,4 +1,4 @@
-package com.ccanozerr.hr.service;
+package com.ccanozerr.fr.service;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.ccanozerr.hr.validation.annotation;
+package com.ccanozerr.fr.validation.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 import javax.validation.Constraint;
 import javax.validation.Payload;
 
-import com.ccanozerr.hr.validation.validator.LicenceValidator;
+import com.ccanozerr.fr.validation.validator.LicenceValidator;
 
 @Target({ ElementType.FIELD, ElementType.PARAMETER })
 @Retention(RetentionPolicy.RUNTIME)

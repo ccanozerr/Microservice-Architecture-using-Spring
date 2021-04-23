@@ -1,9 +1,9 @@
-package com.ccanozerr.hr.validation.validator;
+package com.ccanozerr.fr.validation.validator;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import com.ccanozerr.hr.validation.annotation.Licence;
+import com.ccanozerr.fr.validation.annotation.Licence;
 
 public class LicenceValidator  implements ConstraintValidator<Licence, String>{
 	
